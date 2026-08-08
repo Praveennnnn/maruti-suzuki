@@ -64,7 +64,7 @@ export default function Hero() {
             animate="show"
             className="text-white/65 text-xs md:text-sm tracking-[0.22em] uppercase mb-5"
           >
-            Authorized Maruti Suzuki Dealership
+            Authorized Maruti Suzuki Dealership · Aadhi Maruti Suzuki
           </motion.p>
 
           <motion.h1
@@ -75,7 +75,7 @@ export default function Hero() {
             className="font-display font-extrabold text-white leading-[0.98] tracking-tight mb-4"
           >
             <span className="block text-[clamp(2.4rem,7vw,5.5rem)]">
-              Aadhi Maruti Suzuki
+              Maruti Suzuki Nagercoil
             </span>
             <span className="mt-2 md:mt-3 flex items-center gap-3 md:gap-4">
               <motion.span
@@ -84,8 +84,8 @@ export default function Hero() {
                 transition={{ delay: 0.55, duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
                 className="h-[3px] w-10 md:w-14 origin-left bg-accent shrink-0"
               />
-              <span className="text-[clamp(1.6rem,4.5vw,3rem)] text-white/95">
-                Nagercoil
+              <span className="text-[clamp(1.35rem,3.8vw,2.25rem)] text-white/95">
+                Best Offers · EMI · Test Drive
               </span>
             </span>
           </motion.h1>
@@ -97,7 +97,7 @@ export default function Hero() {
             animate="show"
             className="text-white/80 text-lg md:text-2xl font-display font-semibold max-w-2xl leading-snug mb-4"
           >
-            Drive home your dream Maruti today
+            Drive home your dream Maruti at Aadhi Maruti Suzuki
           </motion.p>
 
           <motion.p
@@ -107,8 +107,8 @@ export default function Hero() {
             animate="show"
             className="text-white/65 text-base md:text-lg max-w-xl leading-relaxed mb-9"
           >
-            Exclusive offers, exchange bonus, finance assistance, and doorstep test drives
-            across Nagercoil and Kanyakumari district.
+            Exclusive Maruti Suzuki offers in Nagercoil — exchange bonus, finance assistance,
+            and doorstep test drives across Kanyakumari district.
           </motion.p>
 
           <motion.div

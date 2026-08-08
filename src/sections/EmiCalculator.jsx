@@ -42,9 +42,9 @@ export default function EmiCalculator() {
     <section id="emi" className="section-pad py-20 md:py-28">
       <div className="max-w-7xl mx-auto">
         <SectionHeading
-          eyebrow="Finance Planner"
-          title="EMI Calculator"
-          subtitle="Adjust price, down payment, interest, and tenure to see your estimated monthly EMI instantly."
+          eyebrow="Maruti Finance Nagercoil"
+          title="Maruti Suzuki EMI Calculator Nagercoil"
+          subtitle="Estimate monthly EMI for Maruti Suzuki cars in Nagercoil — adjust price, down payment, interest, and tenure instantly."
         />
 
         <motion.div

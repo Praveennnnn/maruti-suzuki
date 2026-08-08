@@ -14,9 +14,9 @@ export default function Offers() {
   return (
     <section id="offers" className="section-pad py-20 md:py-28 max-w-7xl mx-auto">
       <SectionHeading
-        eyebrow="Exclusive Benefits"
-        title="Offers Built to Close the Deal"
-        subtitle="Premium value on purchase, exchange, and finance — structured for buyers across Nagercoil & Kanyakumari."
+        eyebrow="Maruti Suzuki Offers Nagercoil"
+        title="Best Maruti Offers in Nagercoil"
+        subtitle="Exclusive purchase, exchange, and finance benefits for Maruti Suzuki buyers across Nagercoil & Kanyakumari."
       />
 
       <div className="grid md:grid-cols-3 gap-5 md:gap-6">

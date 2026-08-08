@@ -19,9 +19,9 @@ export default function DeliveryGallery() {
         <div className="flex items-end justify-between gap-4 mb-4">
           <SectionHeading
             align="left"
-            eyebrow="Happy Deliveries"
-            title="Customer Delivery Gallery"
-            subtitle="Real handovers and ownership moments from buyers across Nagercoil."
+            eyebrow="Maruti Deliveries Nagercoil"
+            title="Happy Maruti Customers in Nagercoil"
+            subtitle="Real handovers from Maruti Suzuki buyers across Nagercoil and Kanyakumari."
           />
           <div className="hidden sm:flex gap-2 shrink-0 mb-14">
             <button

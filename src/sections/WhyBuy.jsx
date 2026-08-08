@@ -18,9 +18,9 @@ export default function WhyBuy() {
   return (
     <section id="why" className="section-pad py-20 md:py-28 max-w-7xl mx-auto">
       <SectionHeading
-        eyebrow="Your Advantage"
-        title="Why Buy Through Me"
-        subtitle="A dedicated Relationship Manager focused on price, paperwork, finance, and a seamless ownership start."
+        eyebrow="Why Choose Us"
+        title="Why Buy Maruti Suzuki in Nagercoil With Me"
+        subtitle="A dedicated Relationship Manager at Aadhi Maruti Suzuki Nagercoil focused on price, paperwork, finance, and a seamless ownership start."
       />
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">

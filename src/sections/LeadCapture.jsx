@@ -40,9 +40,9 @@ export default function LeadCapture() {
       <div className="max-w-7xl mx-auto grid lg:grid-cols-[0.9fr_1.1fr] gap-10 items-center">
         <SectionHeading
           align="left"
-          eyebrow="Get Priority Assistance"
-          title="Claim Today’s Best Offer"
-          subtitle="Share your details and I’ll personally WhatsApp you with the best available price, EMI, and exchange options."
+          eyebrow="Maruti Suzuki Nagercoil Enquiry"
+          title="Get Today’s Best Maruti Offer in Nagercoil"
+          subtitle="Share your details and I’ll WhatsApp the best available Maruti Suzuki price, EMI, and exchange options in Nagercoil."
         />
 
         <motion.form

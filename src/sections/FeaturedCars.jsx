@@ -9,9 +9,9 @@ export default function FeaturedCars() {
   return (
     <section id="cars" className="section-pad py-20 md:py-28 max-w-7xl mx-auto">
       <SectionHeading
-        eyebrow="Featured Models"
-        title="Choose Your Next Drive"
-        subtitle="Explore popular Maruti Suzuki models with indicative pricing, mileage, and EMI estimates for Nagercoil buyers."
+        eyebrow="Maruti Suzuki Cars in Nagercoil"
+        title="Popular Maruti Models in Nagercoil"
+        subtitle="Explore Swift, Brezza, Dzire, Ertiga, Baleno & Fronx with indicative pricing, mileage, and EMI estimates for Maruti Suzuki Nagercoil buyers."
       />
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -28,7 +28,7 @@ export default function FeaturedCars() {
             <div className="relative h-52 md:h-56 overflow-hidden bg-panel-elevated">
               <motion.img
                 src={car.image}
-                alt={`Maruti Suzuki ${car.name}`}
+                alt={`Maruti Suzuki ${car.name} price and offer in Nagercoil`}
                 className="h-full w-full object-contain p-4 transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 to-transparent pt-16 pb-4 px-5 text-white">

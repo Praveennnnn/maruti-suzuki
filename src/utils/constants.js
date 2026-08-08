@@ -34,8 +34,8 @@ export const CONTACT = {
     weekend: 'Saturday – Sunday: 09:00 AM – 12:00 PM',
   },
   social: {
-    // instagram: 'https://www.instagram.com/aadhimaruti/',
-    // facebook: 'https://www.facebook.com/aadhimaruti',
+    instagram: 'https://www.instagram.com/aadhimaruti/',
+    facebook: 'https://www.facebook.com/aadhimaruti',
   },
   copyright:
     'Copyright © 2026 Aadhi Maruthi All Rights Reserved. Designed and developed by Praveen 🌹',
@@ -178,28 +178,33 @@ export const MODELS = ['Swift', 'Brezza', 'Dzire', 'Ertiga', 'Baleno', 'Fronx', 
 
 export const FAQS = [
   {
+    question: 'Where can I buy Maruti Suzuki in Nagercoil?',
+    answer:
+      'You can buy Maruti Suzuki in Nagercoil at Aadhi Maruti Suzuki, S P Mall, Krishnankovil. Contact Relationship Manager Mr.S.Suthan at +91 79042 54325 for today’s best offers, EMI, and test drive.',
+  },
+  {
     question: 'What is the Swift price in Nagercoil?',
     answer:
-      'Swift ex-showroom pricing starts from approximately ₹6.49 Lakh*. Final on-road price depends on variant, insurance, and current offers. Contact Mr.S.Suthan for today’s best quote.',
+      'Swift ex-showroom pricing in Nagercoil starts from approximately ₹6.49 Lakh*. Final on-road price depends on variant, insurance, and current offers. Contact Mr.S.Suthan at Aadhi Maruti Suzuki for today’s best quote.',
   },
   {
     question: 'Are Brezza offers available in Nagercoil?',
     answer:
-      'Yes. Aadhi Maruti Suzuki currently supports exchange bonuses, finance benefits, and limited-period offers on Brezza. Ask for a personalized offer breakdown.',
+      'Yes. Aadhi Maruti Suzuki Nagercoil currently supports exchange bonuses, finance benefits, and limited-period offers on Brezza. Ask for a personalized offer breakdown.',
   },
   {
     question: 'Can I get Ertiga EMI options in Nagercoil?',
     answer:
-      'Yes. Flexible EMI plans are available based on down payment, tenure, and bank eligibility. Use the EMI calculator or WhatsApp for a tailored estimate.',
+      'Yes. Flexible EMI plans are available in Nagercoil based on down payment, tenure, and bank eligibility. Use the EMI calculator or WhatsApp Mr.S.Suthan for a tailored estimate.',
   },
   {
-    question: 'How do I book a Maruti test drive in Nagercoil?',
+    question: 'How do I book a Maruti Suzuki test drive in Nagercoil?',
     answer:
-      'Tap Book Test Drive or WhatsApp Now. Doorstep test drives are available across Nagercoil and Kanyakumari district subject to slot availability.',
+      'Tap Book Test Drive or WhatsApp Now. Doorstep Maruti Suzuki test drives are available across Nagercoil and Kanyakumari district subject to slot availability.',
   },
   {
-    question: 'Why buy through a Relationship Manager?',
+    question: 'Why buy Maruti Suzuki through a Relationship Manager in Nagercoil?',
     answer:
-      'You get dedicated pricing negotiation, finance coordination, exchange support, and delivery follow-up — a personal buying experience beyond a standard enquiry form.',
+      'You get dedicated pricing negotiation, finance coordination, exchange support, and delivery follow-up at Aadhi Maruti Suzuki Nagercoil — a personal buying experience beyond a standard enquiry form.',
   },
 ]

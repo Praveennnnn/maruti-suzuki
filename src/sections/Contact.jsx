@@ -36,9 +36,9 @@ export default function Contact() {
   return (
     <section id="contact" className="section-pad py-20 md:py-28 max-w-7xl mx-auto">
       <SectionHeading
-        eyebrow="Let’s Connect"
-        title="Contact & Showroom"
-        subtitle="Reach me directly for offers, EMI, exchange, or a doorstep test drive."
+        eyebrow="Maruti Suzuki Showroom Nagercoil"
+        title="Contact Aadhi Maruti Suzuki Nagercoil"
+        subtitle="Visit or message for Maruti Suzuki offers, EMI, exchange, or a doorstep test drive in Nagercoil."
       />
 
       <motion.a

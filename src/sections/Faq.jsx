@@ -10,9 +10,9 @@ export default function Faq() {
   return (
     <section id="faq" className="section-pad py-20 md:py-28 max-w-4xl mx-auto">
       <SectionHeading
-        eyebrow="FAQ"
-        title="Common Questions"
-        subtitle="Quick answers for Maruti buyers searching offers, EMI, and test drives in Nagercoil."
+        eyebrow="Maruti Suzuki Nagercoil FAQ"
+        title="Common Questions About Buying in Nagercoil"
+        subtitle="Quick answers for people searching Maruti Suzuki Nagercoil offers, EMI, and test drives."
       />
 
       <div className="space-y-3">
