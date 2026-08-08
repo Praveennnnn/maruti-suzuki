@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Syne", sans-serif;
+  --font-body: "DM Sans", sans-serif;
+
+  --color-ink: #121217;
+  --color-ink-soft: #1c1c24;
+  --color-panel: #ffffff;
+  --color-panel-elevated: #f6f6f8;
+  --color-line: rgba(18, 18, 23, 0.08);
+  --color-muted: #5f5f6e;
+  --color-cream: #ffffff;
+  --color-accent: #e10600;
+  --color-accent-bright: #ff2a1f;
+  --color-accent-deep: #9b0400;
+  --color-glow: rgba(225, 6, 0, 0.18);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: var(--font-body);
+    color: var(--color-ink);
+    background: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: rgba(225, 6, 0, 0.2);
+    color: #121217;
+  }
+
+  input,
+  select,
+  textarea,
+  button {
+    font: inherit;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .glass {
+    background: linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.92),
+      rgba(255, 255, 255, 0.78)
+    );
+    border: 1px solid rgba(18, 18, 23, 0.08);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    box-shadow:
+      0 16px 40px rgba(18, 18, 23, 0.06),
+      inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  }
+
+  .text-gradient {
+    background: linear-gradient(120deg, #121217 8%, #c40a00 55%, #e10600 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .section-pad {
+    padding-inline: clamp(1rem, 4vw, 5rem);
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .range-accent {
+    accent-color: #e10600;
+  }
+}
